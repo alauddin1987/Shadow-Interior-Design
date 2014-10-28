@@ -1,0 +1,33 @@
+RewriteEngine on
+
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f  
+# RewriteRule ^information/(.*)$ ./product_details.php?p_id=$1  
+RewriteRule ^about/(.*)$ ./pages.php?page_id=$1  
+RewriteRule ^company/(.*)$ ./pages.php?page_id=$1  
+RewriteRule ^mission_vission/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^overseas/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^involvement/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^product/(.*)$ ./pages.php?page_id=$1  
+RewriteRule ^solutons/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^wireless_data/(.*)$ ./pages.php?page_id=$1 
+RewriteRule ^oms/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^capture_verification/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^fsolutions/(.*)$ ./pages.php?page_id=$1 
+RewriteRule ^bankulator/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^loan_process/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^telecom/(.*)$ ./pages.php?page_id=$1 
+RewriteRule ^convergent_billing/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^mobile_commerce/(.*)$ ./pages.php?page_id=$1
+RewriteRule ^voice/(.*)$ ./pages.php?page_id=$1   
+
+  
+RewriteRule ^news/(.*)$ ./newses.php?news_info=$1  
+
+# RewriteRule ^product_details/([^/]+)/?$ product_details.php?p_id=$1 [L]
+RewriteRule ^home/?$ index.php [L]
+# RewriteRule ^product_types/?$ product_categories.php [L]
+RewriteRule ^contact/?$ contact_us.php [L]
+RewriteRule ^news/?$ news_categories.php [L]
+# RewriteRule ^confirmation/?$ confirmation.php [L]
+# RewriteRule ^/?([a-z]+)$ $1.php [L]

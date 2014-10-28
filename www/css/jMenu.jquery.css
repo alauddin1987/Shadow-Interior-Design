@@ -1,0 +1,104 @@
+.jMenu {
+    font-family: SolaimanLipi;
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+
+/* First level */
+.jMenu li {
+	min-width:120px;
+    display: table-cell;
+    background-color: #075085;
+    margin: 0;
+	border-right:1px solid #F3F3F3;
+	text-align:center;
+	
+}
+.jMenu li.selected a{
+    background-color:#993;
+}
+
+.jMenu li:last-child{
+	border-right:0px;
+}
+
+.jMenu li a {
+    padding: 10px;
+    display: block;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+	text-decoration:none;
+}
+
+
+.jMenu li a:hover{
+	background:#869c4a;
+    padding: 10px;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+	text-decoration:none;
+}
+
+/* Lower levels */
+.jMenu li ul {
+    display: none;
+    position: absolute;
+	z-index:9999;
+    padding: 0;
+    margin: 0;
+}
+
+.jMenu li ul li {
+    background-color: #186196;
+    display: block;
+	border:0px;
+    border-bottom: 1px solid #484548;
+    padding: 0;
+	text-align:left;
+}
+
+.jMenu li ul li.arrow {
+    background-color: #869c4a;
+    background-image: url('../images/arrow_down.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 6px;
+    padding: 0;
+    border-bottom: none;
+    padding-bottom: 10px;
+	}
+
+.jMenu li ul li.arrow:hover {
+    background-color: #186196;
+	}
+
+.jMenu li ul li a {
+    font-size: 12px;
+    text-transform: none;
+    display: block;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.jMenu li ul li a.isParent {
+    background-color: #186196;
+    background-image: url('../images/arrow_right.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.jMenu li ul li a:hover {
+    font-size: 12px;
+    background-color: #869c4a;
+    border-top: 1px solid #322f32;
+    border-bottom: 1px solid #322f32;
+}
+
+

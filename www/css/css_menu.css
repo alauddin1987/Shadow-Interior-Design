@@ -1,0 +1,35 @@
+/* CSS Tweaks */
+
+.dropdown {list-style:none;   font-size: 15px; padding:0;margin:0;font-weight:normal; min-height:35px; line-height:35px;}
+.dropdown li {padding:0;margin:0;list-style:none;position:relative; min-width:110px; background:#075085; text-align:center;display:block;cursor:pointer;}
+.dropdown li a {display:block;cursor:pointer; padding:0 5px;text-decoration:none;}
+
+.dropdown > li {padding:0; margin:0; float:left;display:block;cursor:pointer;min-width:110px;border-right:1px solid #ccc;}
+
+.dropdown > li:last-child{
+	border-right:0px;
+}
+.dropdown > li > a {padding:0;margin:0;float:left;background-color: transparent; color:#fff; display:block;cursor:pointer; min-width:110px;}
+.dropdown > li > a:hover,.dropdown > li:hover > a {background:#869c4a;display:block;cursor:pointer; min-width:110px;}
+
+.dropdown > li ul {padding:0;margin:0;display:none;}
+
+.dropdown > li:hover > ul {padding:0;margin:0;display:block; min-width:170px;position:absolute;left:0;top:30px;}
+.dropdown > li > ul > li {padding:0; margin:0; border-bottom:1px solid #ccc; padding-left:5px;text-align:left;}
+.dropdown > li > ul > li:last-child{
+	border-bottom:0px;
+}
+.dropdown > li > ul > li > a {min-width:220px; display:block;background:#075085;color:#ccc;}
+.dropdown > li > ul > li > a:hover,.dropdown > li ul > li:hover > a {background:#869c4a;color:#fff;}
+
+.dropdown > li ul > li:hover > ul {padding:0;margin:0;display:block; min-width:170px;position:absolute;left:230px;top:0;}
+.dropdown > li > ul > li > ul > li {padding:0;margin:0; border-bottom:1px solid #ccc; padding-left:5px; text-align:left;}
+.dropdown > li > ul > li > ul > li:last-child{
+	border-bottom:0px;
+}
+.dropdown > li > ul > li > ul > li a {min-width:220px; display:block;background:#075085;color:#ccc;}
+.dropdown > li > ul > li > ul > li a:hover {background:#869c4a;color:#fff;}
+.dropdown > li > ul > li > ul > li > ul > li {padding:0;margin:0; border-bottom:1px solid #ccc; padding-left:5px; text-align:left;}
+.dropdown > li > ul > li > ul > li > ul > li:last-child{
+	border-bottom:0px;
+}

@@ -1,0 +1,40 @@
+body{font-family: tahoma; color: #4C4C4C; font-size: 11px; }
+td{ font-family: tahoma; color: #4C4C4C; font-size: 11px; }	
+input{ font-family: tahoma; color: #4C4C4C; font-size: 11px; }	
+select{ font-family: tahoma; color: #4C4C4C; font-size: 11px; }
+textarea{ font-family: tahoma; color: #4C4C4C; font-size: 11px; }	
+
+A:link {
+COLOR: #666666;FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A:visited {
+COLOR: #666666;FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A:active {
+COLOR: #666666;FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A:hover {
+COLOR: #666666;FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+TD.big_sel {
+COLOR: #333333; FONT-FAMILY: Verdana, arial;LINE-HEIGHT: 150%; FONT-SIZE: 12px; padding-left: 2px;padding-top: 2px;TEXT-DECORATION: bold;
+}
+A.white:link {
+	COLOR: #ffffff; TEXT-DECORATION: bold
+}
+A.white:visited {
+	COLOR: #ffffff; TEXT-DECORATION: bold
+}
+A.white:active {
+	COLOR: #ffffff; TEXT-DECORATION: bold
+}
+A.white:hover {
+	COLOR: #ffffff; TEXT-DECORATION: bold
+}
+//TEXTAREA{font-family:arial,helvetica;font-size:11pt;BACKGROUND-COLOR:#ffffff;color:#000000;}
+HR{
+COLOR:#E6E6E6;height:1px;
+}
+small{
+COLOR: #333333; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 10px; LINE-HEIGHT: 1;
+}

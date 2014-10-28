@@ -1,0 +1,56 @@
+/* Totem Ticker Stylesheet */
+	
+#wrapper{
+		padding:2px;
+		width:290px;
+		margin:0 ;
+        }
+
+ p{
+	    color:#fff; padding:3px 3px; text-align:center;
+  }
+.nav{}
+	
+#wrapper a, #footer a{ 
+		color:#171774; 
+		text-decoration:none; 
+	}
+	
+#wrapper a:hover, #footer a:hover{
+		color:#1a4e08; 
+		border-bottom:1px dotted #08174e;
+	}
+
+
+#vertical-ticker{
+		height:210px;
+		overflow:hidden;
+		margin:0; padding:0;
+		-webkit-box-shadow:0 1px 3px rgba(0,0,0, .4);
+}
+
+#vertical-ticker li{
+		padding:3px 3px;
+		display:block;
+		color:#000;
+		border-bottom:1px solid #b5b5b5;
+		text-align:left;
+		font-weight:bold;
+		
+	}
+	
+#vertical-ticker li h1{
+		padding:0px;
+		background-color:#F5F5F5;
+		color:#707070;
+		font-size:13px;
+		font-weight:bold;
+	}
+	
+#vertical-ticker li h2{
+		color:#333;
+		font-size:12px;
+		font-weight:normal;
+	}
+
+

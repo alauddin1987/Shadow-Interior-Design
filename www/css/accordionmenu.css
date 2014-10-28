@@ -1,0 +1,71 @@
+.accordion,
+.accordion ul,
+.accordion li,
+.accordion a,
+.accordion span {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.accordion li {
+	list-style: none;
+	
+}
+
+/* Layout & Style */
+
+.accordion li > a {
+	display: block;
+	position: relative;
+	padding: 0 10px 0px 10px;
+	height: 32px;
+
+	color: #FFF;
+	text-decoration: none;
+	/*background: Should be change here */
+	background: #075084;
+	
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255, .1), 0px 1px 0px 0px rgba(0,0,0, .1);
+	-moz-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255, .1), 0px 1px 0px 0px rgba(0,0,0, .1);
+	box-shadow: inset 0px 1px 0px 0px rgba(255,255,255, .1), 0px 1px 0px 0px rgba(0,0,0, .1);
+}
+
+.accordion > li:hover > a,
+.accordion > li:target > a,
+.accordion > li > a.active {
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(255,255,255, .2);
+	background: #075084;
+}
+/* Sub Menu */
+
+.sub-menu li a {
+	color: #FFF;
+	background: #0576b2;
+	border-bottom: 1px solid #FFF;
+}
+
+.sub-menu li:hover a { background:#046ea7; }
+
+.sub-menu li:last-child a { border: none; }
+
+.sub-menu em {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 14px;
+	color: #a6a6a6;
+	font: normal 10px/32px Arial, sans-serif;
+}
+
+/* Functionality */
+
+.accordion li > .sub-menu {
+	display: none;
+}
+
+.accordion li:target > .sub-menu {
+	display: block;
+}
